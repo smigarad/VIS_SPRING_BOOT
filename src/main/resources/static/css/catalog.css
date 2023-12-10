@@ -1,0 +1,30 @@
+.stick-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: sticky;
+    height: 20%;
+    top: 4%;
+    transform: translateY(4%);
+    /*transform: translateY(-50%);*/
+    /* Další stylování */
+    width: 100%; /* Pro zabrazení přes celou šířku */
+    background-color: #fff; /* Změňte podle potřeby */
+    z-index: 100; /* Zajistí, aby byl kontejner viditelný přes ostatní obsah */
+    padding: 20px; /* Přizpůsobte podle potřeby */
+}
+
+
+/* Styling for product catalog */
+.product-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+
+
